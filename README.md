@@ -49,6 +49,7 @@
 <br>
 
 # ⚙ 규칙
+모든 작업은 Pull-Request 를 적극 활용하여 Review 와 커밋 기록을 남기는 것을 권장합니다.
 ### Directory Structure
 - `/챕터/챕터번호_이니셜` 형식으로 업로드 해주세요.
   - ex) `Chapter01/01_hs.md`
@@ -57,24 +58,45 @@
 - `week_주차/이니셜` 형식으로 각 주차마다 새로운 브랜치에 작업해주세요.
   - ex) `week_1/hs`
 
-
 ### Commit Convention
-`<gitmoji> type: 내용`
-  - 내용은 한글로 작성
-  - gitmoji 사용
-  - type은 영어 대문자로 작성
+- 커밋메시지는 아래와 같은 형식으로 작성
+    - 한 주의 markdown문서를 시작할 때 
+        :page_facing_up: Docs. {설명}
+    -  새로운 내용 추가
+        :pencil2: Add. {설명}  
+    -  기존 내용을 업데이트한 경우  
+        :bulb: Upt. {설명}
+    -  오타 혹은 문장을 수정한 경우  
+        :hammer: Fix. {설명}
+    -  문서 스타일 및 포맷팅, 네이밍 변경  
+         :art: Style. {설명}
+    -  삭제한 경우  
+        :fire: Del. {설명}
+    -  되돌린 경우  
+        :rewind: Rev. {설명}
+    -  머지한 경우  
+        :twisted_rightwards_arrows: Merge. {From브랜치명} into Main, {설명}
+    - 개선해야하나 일단 커밋한 경우.    
+        :poop: Bad. {설명}
+-  그외 case는 추후 추가될 수 있습니다.
+-  commit message가 고민될 때 [Git Commit Message 규칙](https://jason-api.tistory.com/89)
+    
+이모지 - gitmoji 를 이용하여 사용하면, 좀 더 쉽게 사용 가능  
+>`npm -g install gitmoji-cli`
 
-  
-```
-<types>
-Docs: 문서 작성
-Fix: 문서 및 코드 수정
-Etc: 그 외 기타
+or
+>`brew install gitmoji`
 
-ex) 
-Docs: 1장 정리
-Fix: 1.1코드 오타 수정
+깃모지 커스텀 설정  
+> `gitmoji --config`
 ```
+? Enable automatic "git add ." No
+? Select how emojis should be used in commits :smile:
+? Enable signed commits No
+? Enable scope prompt No
+? Set gitmojis api url https://raw.githubusercontent.com/Developer-book-club//refactoring-2206/main/gitmojis.json
+```
+[https://raw.githubusercontent.com/Developer-book-club//refactoring-2206/main/gitmojis.json](https://raw.githubusercontent.com/Developer-book-club//refactoring-2206/main/gitmojis.json)
 
 
 <br>
