@@ -92,7 +92,7 @@
 
 <img align="left" width="40" height="40" src="https://avatars.githubusercontent.com/u/81757940?v=4">
 
-[Hoyoung-Kim](https://github.com/youngseo-im) <br> - Back-end Developer
+[Hoyoung-Kim](https://github.com/hoyoung1) <br> - Back-end Developer
 
 <img align="left" width="40" height="40" src="https://avatars.githubusercontent.com/u/16860535?v=4">
 
