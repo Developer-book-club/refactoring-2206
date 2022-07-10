@@ -84,7 +84,7 @@
 
 <br>
 
-# 🙋‍♀ Members
+# 🙋‍♀ 스터디 멤버
 
 <img align="left" width="40" height="40" src="https://avatars.githubusercontent.com/u/69497936?v=4">
 
